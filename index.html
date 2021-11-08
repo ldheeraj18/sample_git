@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <!-- <link rel="stylesheet" href="./design.css"> -->
+    <style>
+        body{
+            /* background-image: url(./about-banner.jpg);  */
+            background-size: 100vw;
+            background-image: url(./trauma-inspired-programming.gif);
+            /* background-image: url(./DelayedEmotionalAustrianpinscher-size_restricted.gif); */
+            
+        }
+        h1{
+            text-align:center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2.6rem;
+            color: rgb(25, 170, 6);
+            margin: 15px 30vw;
+            background-color: rgb(246, 249, 250);
+            text-shadow: 2px 2px rgb(198, 218, 20);
+            text-transform: uppercase;
+        }
+        fieldset{
+            border-width:4px;
+            background-image: url(./34-340335_50-beautiful-and-minimalist-presentation-backgrounds-backgrounds-for.jpg);
+            background-size: 100vw; width: 60vw;
+        }
+        span{
+            color: red;
+        }
+        #signup{
+            background: rgb(4, 139, 250);
+            padding: 1vh 2.5vw;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            font-family: Georgia, Times, serif;
+            color:whitesmoke;
+            border:rgb(9, 255, 0);
+            border-radius: 2vh;
+            outline: 0.5vmin solid rgb(9, 255, 0);
+            text-shadow: 1.5px 1.5px rgb(10, 10, 10);
+        }
+    </style>
+</head>
+
+<body>
+        <h1>Version 2021</h1>
+        <form action="">
+            <fieldset>
+                    <legend>
+                        <h2 style="color:rgb(153, 29, 29) ; background:rgba(20, 241, 248,0.85)">Register for Hackathon</h2>
+                    </legend>
+                <!-- <br> -->
+                <label for="first name"><span><sup>*</sup></span>First Name: </label><br>
+                <input id="first name" type="text" name="first name" maxlength="30" size="30"
+                    placeholder="Enter your first name" required>
+                <br /><br>
+                <label for="last name"><span><sup>*</sup></span>Last Name: </label><br>
+                <input id="last name" type="text" name="last name" maxlength="30" size="30"
+                    placeholder="Enter your last name" required>
+                <br /><br>
+                <label><span><sup>*</sup></span>Email Id: <br><input type="email" name="email" maxlength="30" size="40"
+                        placeholder="Enter your mail id" required>
+                </label>
+                <br><br>
+                <label>Phone Number: <br><input type="text" name="phone number" maxlength="10" size="25"
+                        placeholder="Enter your Mobile Number">
+                </label>
+                <br><br>
+                <label><span><sup>*</sup></span>Password: <br><input type="password" name="password" maxlength="16" size="30"
+                        placeholder="Enter your Password" required>
+                </label>
+                <br><br>
+                <p>
+                    <span><sup>*</sup></span>Gender:
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="male" id="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="other" id="other">
+                    <label for="other">Other</label>
+                </p>
+                <br>
+                <p>
+                    <label for="language">Select your preferred programming language:</label>
+                    <select name="language" id="language" required>
+                        <option value="c">C</option>
+                        <option value="c++">C++</option>
+                        <option value="c#">C#</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="Javascript">Javascript</option>
+                    </select>
+                </p>
+                <br><br>
+                <input type="checkbox" name="declaration" id="declaration" value="agreed" required>
+                <label for="declaration"><span><sup>*</sup></span>I hereby declare that the above details are true to my knowledge and I will not
+                    claim for any chances in these details.</label>
+                <br><br>
+                <input type="submit" name="Sign Up" id="signup" value="Sign Up">
+            </fieldset>
+        </form>
+</body>
+</html>̥
